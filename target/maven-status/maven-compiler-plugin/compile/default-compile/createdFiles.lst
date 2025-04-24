@@ -1,0 +1,8 @@
+samautomation/resources/ExtentReportNG.class
+samautomation/pageobjects/ProductCatalogue.class
+samautomation/pageobjects/LandingPage.class
+samautomation/AbstractComponents/AbstractComponent.class
+samautomation/pageobjects/OrderPage.class
+samautomation/pageobjects/CartPage.class
+samautomation/pageobjects/CheckoutPage.class
+samautomation/pageobjects/ConfirmationPage.class

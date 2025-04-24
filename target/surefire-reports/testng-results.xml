@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-23T21:43:10 PKT" name="Suite" finished-at="2025-04-23T21:43:27 PKT" duration-ms="16880">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:samautomation.tests.SubmitOrderTest@5c909414]" name="submitOrder" class="samautomation.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-04-23T21:43:10 PKT" name="Error Validations Test" finished-at="2025-04-23T21:43:10 PKT" duration-ms="8">
+    </test> <!-- Error Validations Test -->
+    <test started-at="2025-04-23T21:43:10 PKT" name="Submit Order Test" finished-at="2025-04-23T21:43:27 PKT" duration-ms="16880">
+      <class name="samautomation.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:samautomation.tests.SubmitOrderTest@5c909414]" started-at="2025-04-23T21:43:10 PKT" name="launchApplication" finished-at="2025-04-23T21:43:15 PKT" duration-ms="4620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:samautomation.tests.SubmitOrderTest@5c909414]" started-at="2025-04-23T21:43:15 PKT" name="submitOrder" data-provider="getData" finished-at="2025-04-23T21:43:19 PKT" duration-ms="4169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=8b@2$A2Dy.Ua6Z@, product=ZARA COAT 3, email=samina.kausar.professional@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:samautomation.tests.SubmitOrderTest@5c909414]" started-at="2025-04-23T21:43:19 PKT" name="tearDown" finished-at="2025-04-23T21:43:20 PKT" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:samautomation.tests.SubmitOrderTest@5c909414]" started-at="2025-04-23T21:43:20 PKT" name="launchApplication" finished-at="2025-04-23T21:43:23 PKT" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:samautomation.tests.SubmitOrderTest@5c909414]" started-at="2025-04-23T21:43:23 PKT" name="submitOrder" data-provider="getData" finished-at="2025-04-23T21:43:27 PKT" duration-ms="3920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=8b@2$A2Dy.Ua6Z@, product=ZARA COAT 3, email=samina.kausar.professional@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:samautomation.tests.SubmitOrderTest@5c909414]" started-at="2025-04-23T21:43:27 PKT" name="tearDown" finished-at="2025-04-23T21:43:27 PKT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- samautomation.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

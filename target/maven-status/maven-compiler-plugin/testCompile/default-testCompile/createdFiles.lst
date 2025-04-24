@@ -1,0 +1,9 @@
+samautomation/data/DataReader.class
+samautomation/tests/ErrorValidationTest.class
+samautomation/TestComponents/Retry.class
+samautomation/TestComponents/Listeners.class
+samautomation/tests/SubmitOrderTest.class
+samautomation/TestComponents/BaseTest$1.class
+samautomation/data/DataReader$1.class
+samautomation/TestComponents/BaseTest.class
+samautomation/tests/StandAloneTest.class
