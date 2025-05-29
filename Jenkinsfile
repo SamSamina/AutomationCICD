@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.6.0'
-        jdk 'Java 17'
+        maven 'Maven 3.9.9' // or whatever name you see in Jenkins > Global Tool Configuration
+        // Remove JDK if it's not installed/configured
     }
 
     stages {
@@ -12,16 +12,9 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
-
         stage("Test") {
             steps {
                 sh 'mvn test'
-            }
-        }
-
-        stage("Publish Test Results") {
-            steps {
-                junit allowEmptyResults: true, testResults: '**/test-output/testng-results.xml'
             }
         }
     }
